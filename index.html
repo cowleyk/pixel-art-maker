@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Kevin's Pixel Art Maker</title>
   <link rel="stylesheet" href="styles.css">
   <script src="pixelJS.js" defer></script>
 </head>
@@ -2032,9 +2032,16 @@
         <div class="color" style="background:#c0c0c0"></div>
         <div class="color" style="background:black"></div>
       </div>
-        <div id="currentColor"></div>
-        <div id="currentColorLabel">Current Color:</div>
-        <button id="erase">Erase All</button>
+      <button id="erase">Erase All</button>
+      <div id="currentColor"></div>
+      <div id="currentColorLabel">Current Color:</div>
+      <div class="colorPickDiv">
+        <label for="ColorPicker">Pick Your Color:</label>
+        <input type="color" id="colorPicker" name="colorInput" value="#85a1fe">
+      </div>
+      <div id="instruction">
+        Click, select color, then click box twice more.
+      </div>
     </div>
   </div>
 </body>

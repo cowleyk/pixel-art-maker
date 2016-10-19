@@ -5,7 +5,7 @@
   border-radius:5%;
 }
 #bottomBar{
-  height:150px;
+  height:225px;
   width:800px;
   background-color:white;
   /*border-radius:2.5%;*/
@@ -20,7 +20,7 @@
 #currentColor{
   height:55px;
   width:55px;
-  margin-right:327.5px;
+  margin-right:62px;
   border:1px solid black;
   border-radius:100%;
   float:right;
@@ -31,18 +31,24 @@
   padding-top:25px;
 }
 #erase{
-  float:left;
-  margin-left:47px;
+  float:right;
+  /*margin-left:20px;*/
   border:1px solid black;
   margin-top:5px;
+  margin-right:47px;
   border-radius:100%;
   height:55px;
   width:55px;
 }
+#instruction{
+  margin-left:47px;
+  margin-top:5px;
+  clear:both;
+}
 .grid{
-  height:444.44px;
+  height:400px;
   width:800px;
-  /*make same h/w ratio as container*/
+  /*make same h/w ratio as container?*/
   /*background-color:yellow;*/
   margin-left:45px;
   padding-top:32px;
@@ -63,4 +69,10 @@
   float:left;
   /*display:inline-block;*/
   /*margin:auto;*/
+}
+.colorPickDiv{
+  width:225px;
+  margin-top:20px;
+  margin-left:47px;
+  float:left;
 }
